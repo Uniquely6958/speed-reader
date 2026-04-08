@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Speed Reader</h2>
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+        <div class="slider-container">
+            <label for="speedSlider">Speed:</label>
+            <input type="range" id="speedSlider" min="100" max="2000" value="400">
+			<span id="speedValue">400</span> wpm
+        </div>
+        <div id="display"></div>
+        <button id="startBtn">Start Reading</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
